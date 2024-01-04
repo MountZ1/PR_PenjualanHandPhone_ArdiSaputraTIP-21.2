@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PR_PenjualanHandPhone_ArdiSaputraTIP212" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="backgroundColor">@color/white</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/buttonColor</item>
+        <item name="android:paddingRight">150dp</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/buttonColor</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="searchbar" parent="Widget.AppCompat.SearchView">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">#9b9b9b</item>
+        <item name="android:hint">Search</item>
+        <item name="colorOutline">#9b9b9b</item>
+    </style>
+
+    <!-- Remove the duplicate style below -->
+    <!-- <style name="Theme.PR_PenjualanHandPhone_ArdiSaputraTIP212" parent="Base.Theme.PR_PenjualanHandPhone_ArdiSaputraTIP212" /> -->
+</resources>
